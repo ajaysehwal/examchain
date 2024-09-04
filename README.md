@@ -1,6 +1,6 @@
 # ExamChain
 
-**ExamChain** is a decentralized examination platform designed to conduct exams securely for schools, colleges, and organizations, including large-scale government examinations. By leveraging NEAR's blockchain technology, ExSafe ensures the integrity of exam processes, prevents paper leaks, and provides a tamper-proof record of exam data.
+**ExamChain** is a decentralized examination platform designed to conduct exams securely for schools, colleges, and organizations, including large-scale government examinations. By leveraging NEAR's blockchain technology, ExamChain ensures the integrity of exam processes, prevents paper leaks, and provides a tamper-proof record of exam data.
 
 ## Features
 
