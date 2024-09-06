@@ -1,8 +1,7 @@
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <div className="container">
-      
-    </div>
-  );
+
+  
+  return redirect("/signup");
 }
