@@ -3,7 +3,7 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import React, { useState } from "react";
-import LogoSvg from "../../../public/Logo-svg-white.svg";
+import LogoSvg from "@/public/Logo-svg-white.svg";
 import Image from "next/image";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -36,7 +36,7 @@ const SignUp = () => {
     <div className="container  h-screen">
       <div className="flex justify-center items-center h-full">
         <div className="bg-white p-5 rounded-2xl flex-1 flex h-full max-h-[1024px]">
-          <div className="justify-between shadow-md bg-gradient-to-b from-[#1353C0] to-[#005EFF] flex flex-col text-white rounded-lg h-full max-h-[1000px] py-2 px-10">
+          <div className="flex-[0.5] justify-between shadow-md bg-gradient-to-b from-[#1353C0] to-[#005EFF] flex flex-col text-white rounded-lg h-full max-h-[1000px] py-2 px-10">
             <Button asChild variant="ghost" className="w-min ">
               <Link href="/" className="space-x-1 flex items-center">
                 <Image
@@ -47,7 +47,7 @@ const SignUp = () => {
                   alt="logo-svg"
                   className="w-7 h-7"
                 />
-                <span className="font-bold text-xl">ExamHub</span>
+                <span className="font-bold text-xl">ExamChain</span>
               </Link>
             </Button>
 
@@ -55,7 +55,7 @@ const SignUp = () => {
               <h2 className="text-2xl font-semibold">Creating your account</h2>
               <span className="font-light space-y-5 flex flex-col max-w-[503px]">
                 <p>
-                  Let&apos;s create a personalized ExamHub experience for your
+                  Let&apos;s create a personalized ExamChain experience for your
                   school
                 </p>
               </span>
